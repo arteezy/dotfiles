@@ -18,7 +18,7 @@
 	attributesfile = ~/.gitattributes
 
 [include]
-    path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
 
 [pager]
 	# insanely beautiful diffs ==> npm install -g diff-so-fancy
@@ -28,7 +28,11 @@
 [interactive]
 	diffFilter = "diff-so-fancy"
 
-# so much color
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+
 [color]
 	ui = always
 [color "diff"]
