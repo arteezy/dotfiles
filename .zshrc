@@ -37,7 +37,7 @@ COMPLETION_WAITING_DOTS="true"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-# Uncomment following line if you want to  shown in the command execution time stamp 
+# Uncomment following line if you want to  shown in the command execution time stamp
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
 # yyyy-mm-dd
 # HIST_STAMPS="mm/dd/yyyy"
@@ -60,12 +60,13 @@ fi
 export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
 
-# Customize to your needs...
-export MANPATH="$MANPATH:/usr/local/man"
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home
-export MAVEN_OPTS="-Xms256m -Xmx512m"
+# PATHs
+export JAVA_HOME=$(/usr/libexec/java_home)
+export MANPATH=$MANPATH:/usr/local/man
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
 export GOPATH=~/go
+
+export MAVEN_OPTS="-Xms256m -Xmx512m"
 
 # Alias
 alias rm='rm -i'
