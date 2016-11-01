@@ -78,3 +78,5 @@ alias ls='ls -hFG'
 alias clr='clear'
 alias cls='clear'
 alias tree='tree -C'
+
+alias y='yarn'
