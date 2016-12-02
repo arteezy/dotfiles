@@ -45,7 +45,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails gem bundler dotenv heroku osx brew github rvm rake-fast postgres npm node sublime coffee gitignore)
+plugins=(git rails gem bundler dotenv heroku osx rake-fast postgres npm node sublime gitignore)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -61,12 +61,10 @@ export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
 
 # PATHs
-export JAVA_HOME=$(/usr/libexec/java_home)
+#export JAVA_HOME=$(/usr/libexec/java_home)
 export MANPATH=$MANPATH:/usr/local/man
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
 export GOPATH=~/go
-
-export MAVEN_OPTS="-Xms256m -Xmx512m"
 
 # Alias
 alias rm='rm -i'
