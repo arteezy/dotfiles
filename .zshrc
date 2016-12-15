@@ -49,6 +49,8 @@ plugins=(git rails gem bundler dotenv heroku osx rake-fast postgres npm node sub
 
 source $ZSH/oh-my-zsh.sh
 
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
