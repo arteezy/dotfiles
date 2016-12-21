@@ -68,6 +68,9 @@ export MANPATH=$MANPATH:/usr/local/man
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
 export GOPATH=~/go
 
+export PATH=$HOME/.rbenv/bin:$PATH
+eval "$(rbenv init -)"
+
 # Alias
 alias rm='rm -i'
 alias cp='cp -i'
