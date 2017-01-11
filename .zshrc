@@ -70,6 +70,7 @@ export GOPATH=~/go
 
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
+export PATH=$PATH:`yarn global bin`
 
 # Alias
 alias rm='rm -i'
@@ -83,3 +84,5 @@ alias cls='clear'
 alias tree='tree -C'
 
 alias y='yarn'
+alias yo='yarn outdated'
+alias yu='yarn upgrade'
