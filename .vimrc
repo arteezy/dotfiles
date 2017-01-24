@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 syntax on
 filetype on
 filetype indent on
@@ -8,7 +6,7 @@ compiler ruby
 
 let g:airline_powerline_fonts = 1
 
-set virtualedit=onemore 
+set virtualedit=onemore
 set nowrap
 set number
 set ai
@@ -34,8 +32,6 @@ set term=xterm-256color
 set encoding=utf-8
 set backspace=2
 set history=500
-
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 command W w !sudo tee % > /dev/null
 
