@@ -33,6 +33,10 @@ set encoding=utf-8
 set backspace=2
 set history=500
 
+set background=dark
+color ayu
+set termguicolors
+
 command W w !sudo tee % > /dev/null
 
 nnoremap <S-j> :m .+1<CR>==
