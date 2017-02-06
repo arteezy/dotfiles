@@ -3,3 +3,18 @@ Style/Documentation:
 
 Style/BlockDelimiters:
   Enabled: false
+
+Style/AlignParameters:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Bundler/OrderedGems:
+  Enabled: false
