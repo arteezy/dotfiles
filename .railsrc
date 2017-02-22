@@ -1,5 +1,7 @@
 --database=postgresql
 --skip-bundle
 --skip-spring
---skip-test-unit
+--skip-test
 --skip-turbolinks
+--skip-action-cable
+--skip-coffee
