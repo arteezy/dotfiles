@@ -87,3 +87,6 @@ alias y='yarn'
 alias yo='yarn outdated'
 alias yu='yarn upgrade'
 alias yui='yarn upgrade-interactive'
+
+alias l='exa -l'
+alias la='exa -la'
