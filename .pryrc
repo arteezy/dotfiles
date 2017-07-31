@@ -9,4 +9,5 @@ if defined?(PryByebug)
   Pry.commands.alias_command 'f', 'finish'
 end
 
+Pry.config.history.should_load = true
 Pry.config.color = true
