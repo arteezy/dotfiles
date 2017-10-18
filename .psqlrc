@@ -1,2 +1,5 @@
 \set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%# '
 \set PROMPT2 '[more] %R > '
+\setenv PAGER pspg
+\pset border 2
+\pset linestyle unicode
