@@ -68,7 +68,6 @@ export MANPATH=$MANPATH:/usr/local/man
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
 export GOPATH=~/go
 export PATH=$HOME/.rbenv/bin:$PATH
-export PATH=$PATH:`yarn global bin`
 
 eval "$(rbenv init -)"
 
