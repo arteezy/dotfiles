@@ -1,6 +1,9 @@
 Layout/SpaceInLambdaLiteral:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Layout/AlignParameters:
   Enabled: false
 
