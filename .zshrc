@@ -65,9 +65,9 @@ export LESSOPEN='|~/.lessfilter %s'
 # PATHs
 #export JAVA_HOME=$(/usr/libexec/java_home)
 export MANPATH=$MANPATH:/usr/local/man
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
-export GOPATH=~/go
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.7/site-packages
 export PATH=$HOME/.rbenv/bin:$PATH
+export GOPATH=~/go
 
 eval "$(rbenv init -)"
 
